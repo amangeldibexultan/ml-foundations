@@ -28,6 +28,7 @@ Run the cells from top to bottom.
 
 The notebook uses Python's standard library.
 No additional packages are required.
+The NumPy notebook requires NumPy, which is available in Google Colab.
 
 ## Next steps
 
