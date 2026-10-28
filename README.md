@@ -31,7 +31,15 @@ No additional packages are required.
 
 ## Next steps
 
-- NumPy
 - pandas
 - Data visualization
 - First machine learning project
+
+### NumPy Basics
+Notebook: [02_numpy_basics.ipynb](02_numpy_basics.ipynb)
+
+Practiced array operations, indexing, boolean filtering,
+axis-based aggregations, broadcasting, reshaping, and copying.
+
+Implemented column-wise min-max normalization with constant-column
+handling and checked the result using np.allclose().
