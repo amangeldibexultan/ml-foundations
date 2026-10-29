@@ -21,6 +21,23 @@ Implemented exercises:
 4. Min-max normalization with input validation
 5. Reproducible train/test splitting without scikit-learn
 
+### NumPy Basics
+Notebook: [02_numpy_basics.ipynb](02_numpy_basics.ipynb)
+
+Practiced array operations, indexing, boolean filtering,
+axis-based aggregations, broadcasting, reshaping, and copying.
+
+Implemented column-wise min-max normalization with constant-column
+handling and checked the result using np.allclose().
+
+### pandas Basics
+Notebook: [03_pandas_basics.ipynb](03_pandas_basics.ipynb)
+
+Practiced column selection, filtering, sorting, grouping,
+missing-value handling, duplicate removal, and CSV input/output.
+
+Implemented and checked a reusable student data cleaning function.
+
 ## How to run
 
 Download the notebook and open it in Google Colab or Jupyter Notebook.
@@ -30,17 +47,9 @@ The notebook uses Python's standard library.
 No additional packages are required.
 The NumPy notebook requires NumPy, which is available in Google Colab.
 
-## Next steps
+The NumPy and pandas notebooks require numpy and pandas.
+Both packages are available in Google Colab.
 
-- pandas
+## Next steps
 - Data visualization
 - First machine learning project
-
-### NumPy Basics
-Notebook: [02_numpy_basics.ipynb](02_numpy_basics.ipynb)
-
-Practiced array operations, indexing, boolean filtering,
-axis-based aggregations, broadcasting, reshaping, and copying.
-
-Implemented column-wise min-max normalization with constant-column
-handling and checked the result using np.allclose().
