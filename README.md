@@ -38,18 +38,32 @@ missing-value handling, duplicate removal, and CSV input/output.
 
 Implemented and checked a reusable student data cleaning function.
 
+### Data Visualization
+Notebook: [04_data_visualization.ipynb](04_data_visualization.ipynb)
+
+Created bar charts, annotated scatter plots, histograms,
+and line plots using basketball practice data.
+Compared two players and saved a chart as PNG.
+
 ## How to run
 
-Download the notebook and open it in Google Colab or Jupyter Notebook.
-Run the cells from top to bottom.
+1. Download a notebook from this repository.
+2. Open it in Google Colab or Jupyter Notebook.
+3. Run all cells from top to bottom.
 
-The notebook uses Python's standard library.
-No additional packages are required.
-The NumPy notebook requires NumPy, which is available in Google Colab.
+### Dependencies
 
-The NumPy and pandas notebooks require numpy and pandas.
-Both packages are available in Google Colab.
+- 01_python_foundations.ipynb: Python standard library only.
+- 02_numpy_basics.ipynb: numpy.
+- 03_pandas_basics.ipynb: pandas.
+- 04_data_visualization.ipynb: pandas and matplotlib.
+
+All required packages are preinstalled in Google Colab.
+
+For local use, install the packages:
+pip install numpy pandas matplotlib
+
+CSV and PNG files are generated when the corresponding cells are run.
 
 ## Next steps
-- Data visualization
 - First machine learning project
